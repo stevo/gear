@@ -1,8 +1,8 @@
 # Extends application RJS handling, so any flash or validation errors will be refreshed on page after any ajax action.
 # This extension depends on message_block gem and will be switched off if this gem is missing.
         
-module ActionController
-  class Base
+module ActionController #:nodoc:
+  class Base #:nodoc:
     private
 
     def render_for_text_with_flashes(text = nil, status = nil, append_response = false) #:nodoc:

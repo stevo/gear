@@ -9,10 +9,10 @@ class Date
   end
 end
 
-module ActiveSupport
-  module CoreExtensions
-    module Numeric
-      module Time
+module ActiveSupport #:nodoc:
+  module CoreExtensions #:nodoc:
+    module Numeric #:nodoc:
+      module Time #:nodoc:
 
         def working_days_from_now
           end_date = ::Date.today + self
