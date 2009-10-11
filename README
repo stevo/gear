@@ -1,9 +1,9 @@
-# A small set of various rails extensions
-#
-# Installation:
-#
-# ruby script/plugin install git://github.com/selleo/gear.git
-#
-# Author::    Blazej "Stevo" Kosmowski (b.kosmowski@selleo.com)
-# Copyright:: Copyright (c) 2009 selleo.com
-# License::   Distributes under the same terms as Ruby
+A small set of various rails extensions
+
+Installation:
+
+ruby script/plugin install git://github.com/selleo/gear.git
+
+Author::    Blazej "Stevo" Kosmowski (b.kosmowski@selleo.com)
+Copyright:: Copyright (c) 2009 selleo.com
+License::   Distributes under the same terms as Ruby
