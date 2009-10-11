@@ -17,9 +17,9 @@ module ActiveSupport #:nodoc:
       module Time #:nodoc:
 
         # returns a working day _n_ working days from now
-        # i.e. _5.working_days_from_now_
+        # i.e. _5.working_days_from_now_::
         #
-        # method is aliased with _working_day_from_now_
+        # method is aliased with _working_day_from_now_::
         def working_days_from_now
           end_date = ::Date.today + self
           free_days = (::Date.today..end_date).select{|d| d.is_free?}.size
