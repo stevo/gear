@@ -1,5 +1,6 @@
 # Extends application RJS handling, so any flash or validation errors will be refreshed on page after any ajax action.
 # This extension depends on message_block gem and will be switched off if this gem is missing.
+# Model names for message block are to be stored in MODEL_NAMES_FOR_MB global constant
         
 module ActionController #:nodoc:
   class Base #:nodoc:

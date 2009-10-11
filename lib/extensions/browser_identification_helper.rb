@@ -1,4 +1,6 @@
 module BrowserIdentificationHelper
+
+  # return true, if current browser matches browser gien as param
   def browser_is? name
     name = name.to_s.strip
     return true if browser_name == name
@@ -7,6 +9,7 @@ module BrowserIdentificationHelper
     return true if name == 'webkit' && browser_name == 'safari'
   end
 
+  # returns current browser name
   def browser_name
     @browser_name ||= begin
 
@@ -28,6 +31,7 @@ module BrowserIdentificationHelper
     end
   end
 
+  # return current protocol used
   def protocol
     ( request.env['HTTPS'] == 'on' || request.env['HTTP_X_FORWARDED_PROTO'] == 'https') ? 'https://' : 'http://'
   end

@@ -1,4 +1,4 @@
-#Changes keys of hash according to given map
+# Changes keys of hash according to given map, i.e.
 # >> {:a => 10, :c => 20}.map_keys({:a => :b})
 # => {:c=>20, :b=>10}
 class Hash #:nodoc:

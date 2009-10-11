@@ -1,4 +1,3 @@
-#:nodoc: all
 require "extensions/date_extensions"
 require "extensions/hash_extensions"
 require "extensions/all_cached"

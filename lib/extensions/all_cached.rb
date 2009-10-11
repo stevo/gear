@@ -7,7 +7,7 @@
 
 module AllCached
 
-  def self.included(base)
+  def self.included(base) #:nodoc:
     base.class_eval do
       send :extend, ClassMethods
       send :include, InstanceMethods
