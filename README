@@ -1,8 +1,10 @@
 A small set of various rails extensions
+Review lib/extensions for more info
 
 Installation:
 
-ruby script/plugin install git://github.com/selleo/gear.git
+ruby script/plugin install git://github.com/stevo/gear.git
+
 
 Author::    Blazej "Stevo" Kosmowski (b.kosmowski@selleo.com)
 Copyright:: Copyright (c) 2009 selleo.com
